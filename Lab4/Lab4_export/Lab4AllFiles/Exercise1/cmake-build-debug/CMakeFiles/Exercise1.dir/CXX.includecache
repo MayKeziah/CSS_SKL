@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/CopyAssignTest.cpp
+iostream
+-
+MyClass.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/MyClass.h
+MySubClass.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/MySubClass.h
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/MyClass.h
+string
+-
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/MySubClass.h
+MyClass.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise1/MyClass.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise3/IteratorTest.cpp
+iostream
+-
+SquareContainer2.cpp
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise3/SquareContainer2.cpp
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise3/SquareContainer2.cpp
+cstdlib
+-
+iostream
+-
+SquareContainer2.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise3/SquareContainer2.h
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise3/SquareContainer2.h
+

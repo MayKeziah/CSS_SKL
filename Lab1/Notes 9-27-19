@@ -1,0 +1,66 @@
+09/27/19
+Notes from Linux Workshop:
+
+	- Remote access VPM Info online
+	- $ ssh NETID@uw1-320-xx.uwb.edu
+	- $ g++ -D DEBUG hello.cpp -o H
+
+Notes from SKLS:
+
+	int a;
+	int &r; 	//XX compile error!! XX
+	
+	int &r = a; //good!
+	int &r(a);  //good!
+	a = 4;		//Now r also = 4
+
+	int a;
+	int &r(a); //r refers to a;
+	int b;
+	r = b; //r refers to b
+
+	/*
+	 *
+	 */
+	void f(int a){
+		a += 1;
+	}
+
+	int main(){
+		int a;
+		a = 4;
+		f(a);
+	} //a = 4, f does not change the value of a
+
+	however, it you change to:
+
+	void f(int& c){
+		c += 1;
+	} //at the end of main, a = 5
+
+	****************
+
+	In c++ you can do the following:
+	Class AC{
+		int a;
+		int b;
+	}
+
+	void f(){
+		AC obj;
+		AC.a = 4;
+		AC.b = 6;
+	}
+
+************
+Java passes by reference,
+C++, by default, passes by value.
+& passes by reference.
+new key word means the same thing in java and c++
+	stack (local something) 
+	vs 
+	heap (global something)?!
+
+******************
+
+Use WinSCP to transfer files

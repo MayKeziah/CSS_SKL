@@ -1,0 +1,57 @@
+Keziah May
+Fall 2019
+342 CSSSKL A
+
+Line 24) explain the new types here:
+    I do not understand this question.
+    Maybe you are asking about the parameters? They allow you to send main values from the command line.
+    I assume it refers to the pointer, so I will talk about that.
+    So far, we have learned about 3 ways of passing variables.
+    1. Pass by value
+        int x = 5;
+        someFunction(x)
+       This copies the information stored by x and gives it to someFunction().
+    2. Pass by reference
+        int &x = 5;
+        someFunction(x);
+       This sends someFunction() a reference to the memory address of x. This means it can mutate
+       the value stored in x. Specifically, the variable used in the function and the one passed to
+       the function share a memory address.
+    3. Pass by constant reference
+        int &x = 5;
+        someFunction(const x); //this syntax might not be correct, unsure, I've seen it in function definitions.
+       This sends someFunction() the beautiful birthchild of pass by value and pass by reference.
+       Instead of copying the value like in pass by value, which can cost a lot of efficiency if you are
+       dealing with a large amount of data, it passes a reference to the original object's memory location.
+       However, unlike pass by reference, you cannot mutate the information. That means you have the
+       security of pass by value with the efficiency of pass by reference! Cool!
+
+    So then, what is this pointer?
+
+    4. Pass by pointer
+        int *x = 5;
+        someFunction(x);
+       This sends someFunction() a pointer to a memory location. This means you can treat it much like
+       a pass by reference variable, but you have to keep in mind, instead of receiving a reference to a memory location,
+       you have recieved a pointer to that location. This means you can traverse sequential memory locations.
+       x++ will move you to the next memory location, not make x = 6.
+
+
+   Line 31) What options can you add when writing to a file?
+        There is quite a bit you can do when writing to a file.
+        (http://www.cplusplus.com/reference/fstream/ofstream/)
+        You can insert a char, or a block of text. You can get your current position
+        in the output stream, and you can change position. You can clear the output stream,
+        and much more.
+
+   Line 33) Is that comment on the right line??
+
+   Line 41) What are the starting values here?
+        Since rats.dat starts with "0 1", Top becomes 0 and bottom becomes 1.
+
+Question:
+    When I read through this it looked like it would run, but when I ran it,
+    it did not behave as expected. I added in print statements to figure out how much
+    of the code it got through, but none of them printed and I got no errors.
+    Why is this happening?
+    ** note, it runs properly when done through terminal, but not on clion.

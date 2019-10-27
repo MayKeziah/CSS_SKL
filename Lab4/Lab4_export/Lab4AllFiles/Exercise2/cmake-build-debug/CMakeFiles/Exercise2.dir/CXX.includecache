@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise2/Driver.cpp
+iostream
+-
+Square.cpp
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise2/Square.cpp
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise2/Square.cpp
+iostream
+-
+Square.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise2/Square.h
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab4/Lab4_export/Lab4AllFiles/Exercise2/Square.h
+

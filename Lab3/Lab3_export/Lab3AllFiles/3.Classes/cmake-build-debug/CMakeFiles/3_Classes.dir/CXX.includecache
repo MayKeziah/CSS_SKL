@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/ClassTest.cpp
+iostream
+-
+Square.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/Square.h
+SquareContainer.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/SquareContainer.h
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/Square.h
+iostream
+-
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/SquareContainer.h
+stdexcept
+-
+string
+-
+Square.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/3.Classes/Square.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/3_Classes.dir/ClassTest.cpp.o CMakeFiles/3_Classes.dir/Square.cpp.o CMakeFiles/3_Classes.dir/SquareContainer.cpp.o  -o 3_Classes.exe -Wl,--out-implib,lib3_Classes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

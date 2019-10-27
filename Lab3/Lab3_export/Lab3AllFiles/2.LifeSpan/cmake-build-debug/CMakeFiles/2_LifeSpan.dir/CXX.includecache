@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/ScopeEtc.cpp
+iostream
+-
+SuperSuperInt.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperSuperInt.h
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperInt.h
+string
+-
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperSuperInt.cpp
+SuperSuperInt.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperSuperInt.h
+iostream
+-
+
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperSuperInt.h
+SuperInt.h
+/cygdrive/c/Users/E/Documents/UWB/1_F19/CSS_SKLS/Lab3/Lab3_export/Lab3AllFiles/2.LifeSpan/SuperInt.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Exercise1.dir/CopyAssignTest.cpp.o CMakeFiles/Exercise1.dir/MyClass.cpp.o CMakeFiles/Exercise1.dir/MySubClass.cpp.o  -o Exercise1.exe -Wl,--out-implib,libExercise1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

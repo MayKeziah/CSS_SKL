@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Lab2AllFiles.dir/ArrayDemo.cpp.o CMakeFiles/Lab2AllFiles.dir/Pointer1.cpp.o CMakeFiles/Lab2AllFiles.dir/Pointer2.cpp.o CMakeFiles/Lab2AllFiles.dir/Pointer3.cpp.o  -o Lab2AllFiles.exe -Wl,--out-implib,libLab2AllFiles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

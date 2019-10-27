@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/1_Inheritance.dir/A.cpp.o CMakeFiles/1_Inheritance.dir/B.cpp.o CMakeFiles/1_Inheritance.dir/C.cpp.o CMakeFiles/1_Inheritance.dir/InheritanceTest.cpp.o  -o 1_Inheritance.exe -Wl,--out-implib,lib1_Inheritance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

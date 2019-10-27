@@ -1,0 +1,41 @@
+Keziah May
+Fall 2019
+342 CSSSKL A
+
+1. Why doesn't it compile? I'm not just looking for which line(s) have the problem, but rather what is wrong with those line(s).
+    A) The only syntax error I found is on line 55, (see 55-56 below)
+          int& xr;
+          xr = x;
+       The issue here is that references must be declared and initiated in the same line.
+       To correct this issue, you could instead type, all on line 55:
+          int& xr = x;
+
+2. What is happening when onePlus() is called? In other words, what exactly does the function receive as an argument?
+   Why isn't the value of the variable in main() altered?
+    A) When onePlus() is called, it receives an integer value as a parameter. It then increments that number by one.
+    B) Specifically, this function receives an integer VALUE as a parameter. That means that as soon as we enter onePlus(),
+       that parameter is a local variable that will be lost if it is not returned and stored.
+    C) The reason that the variable in main is unchanged is that onePlus() only received a copy of the value held by that variable,
+       but it never had access to the variable itself.
+3. Conversely, consider the call to refIncrement().
+   What is the argument here and why is the value of the variable in main() changed?
+    A) When refIncrement() is called, it receives a reference to the argument passed to it. It increments the value stored in the given reference by one.
+    B) Here, the argument is a reference to the variable it was passed in main. Instead of receiving a copy of the value,
+       we are given direct access to the original variable and can manipulate its value as a result. When the value is incremented
+       in refIncrement(), it updates the corresponding variable's value in main.
+4. Finally, consider the code related to value(). First of all, make sure you understand what Pair is and what the declaration of pairs means.
+    A) "Pair" is a data structure made simply of 2 data members, a string "name" and an int "val".
+    B) "pairs" is a vector, which is much like Java's ArrayList or Python's List.
+       The type which can be stored in "pairs" is "Pair".
+    C) value() returns the reference to an integer value, and takes an immutable string reference as an argument.
+5. Next, consider a call to value(). What does the function receive as an argument? What is the meaning of const in this context?
+    A) When called, value() is passed an immutable string reference. This string, "s", is then the target we
+       search for in "pairs". If we find that a "Pair" entry has "s" as its "name" member,
+       we return a reference to the "val" of the same "Pair". If there is no "Pair" in the list with
+       a matching "name", we create one with a "val" of zero and return a reference to that "val".
+6. What does value() return? How can it be legal and what does it mean to apply the ++operator to its return value?
+    A) Since value() returns a reference to the int "val" data member of a "Pair" object, the
+       value of that member can be mutated. As shown in the given code, the "++" incrementing operator
+       can be used on the return and will mutate the value stored in the "Pair" stored in "pairs".
+       Though this code will run, it is not very safe and should only be allowed to send information to other code,
+       not to a client.

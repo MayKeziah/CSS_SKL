@@ -1,0 +1,30 @@
+Keziah May
+CSS_SKL 342
+F2019
+
+Answers to Questions from Lab4:
+	Exercises 1.1, 3.1, and 3.2
+
+1.1:
+	the MyClass::operator=() overload is generating a deep copy.
+
+3.1:
+	In IteratorTest, first we create a 5x5 array of type int by initializing mc. 
+	Then, we iterate through each location in the grid row by row setting the value at that location to the current value of i.
+
+	Then, we iterate back through the list and print the value to the console of each location in the grid.
+
+	* has been overloaded and now ensures we are trying to access locations in a row that does not exist. If we are still in the grid, it returns the current location.
+
+	To compile, I had to make a number of adjustments including removing the include from the header file, adding inline to some of the iterator functions, and changing the include in the iteratorTest to be the cpp file not the h file. 
+
+3.2
+	The iterator increment operators return an iterator so that we can update the location of the iterator and immediately perform the next operation.
+
+	the increment operator++() is a prefix operator. That allows us to write:
+		++ci;
+
+	the increment operator++(int), however, is a postfix operator. The int is not to say we are using an integer, it is a sign to the compiler that we are overloading the postfix incrementing operator.
+
+	The iterator returned is a copy of 'this' iterator which is returned by value. 
+

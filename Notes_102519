@@ -1,0 +1,31 @@
+Notes 102519
+
+g++ -g // Build for debug
+g++ -O4 // build for release, optimize code.
+
+Every line of code, 
+	am I constructing a new object? 
+	Do I really need to?
+
+--------------------- Notes Lab 5 ---------------------
+Function references:
+
+class MyClass{
+	public:
+	void f1(float w, int y){
+		cout << "F1: " << w << ", " << endl;
+	}
+	void f2(float w, int y){
+		cout << "F2: " << w << ", " << endl;
+	}
+}
+int main(){
+	MyClass a;
+	MemberFunction m = &MyClass::f1;
+	MemberFunction n = &MyClass::f2;
+
+	(a.*m)(4, 5);
+
+	f(a, m); // ?
+	f(a, n); // ?
+}

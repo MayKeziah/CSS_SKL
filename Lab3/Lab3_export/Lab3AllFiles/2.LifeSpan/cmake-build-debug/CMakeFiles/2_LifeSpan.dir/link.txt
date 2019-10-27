@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/2_LifeSpan.dir/ScopeEtc.cpp.o CMakeFiles/2_LifeSpan.dir/SuperInt.cpp.o CMakeFiles/2_LifeSpan.dir/SuperSuperInt.cpp.o  -o 2_LifeSpan.exe -Wl,--out-implib,lib2_LifeSpan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
